@@ -100,7 +100,7 @@ class App extends Component {
                               className="App-filter-button"
                               variant={
                                 this.state.filters.launch_year ===
-                                year.toString()
+                                  year.toString()
                                   ? "success"
                                   : "outline-success"
                               }
@@ -213,16 +213,10 @@ class App extends Component {
                 </Row>
               </Col>
             </Row>
-            <div>
-              <h5 className="App-Developers-name">
-                Developed by : Jasvinder Singh, Jennifer B 
-              </h5>
-            </div>
           </Container>
         </div>
       );
     }
-
   }
 }
 
